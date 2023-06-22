@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+/* Menu du header */
+.header{
+    @apply flex justify-center bg-white   items-center  py-4;
+}
+/* Menu de navigation */
+.navigation-bar{
+    @apply flex justify-between items-center  w-10/12;
+}
+.navigation-bar-smartphone{
+    @apply flex justify-between items-center w-10/12;
+}
+.navigation-logo{
+    @apply max-h-12 md:max-h-8 ;
+}
+.navigation-icon {
+    @apply w-12 h-12  cursor-pointer ;
+}
+.navigation-list{
+    @apply md:flex;
+}
+.navigation-item{
+    @apply mx-3 self-center text-xs text-center;
+}
+/* Menu du container */
+.main-container{
+    @apply flex ;
+}
+.container-box{
+    @apply flex  h-5/6;
+}
+.container-item-smartphone{
+    @apply mt-4 border rounded-md  ;
+}
+.container-item{
+    @apply flex flex-col justify-start mt-4 mx-4 h-3/5  border rounded-md  ;
+}
+.container-text{
+    @apply  my-auto     ;
+}
+.container-title{
+    @apply font-medium text-center ;
+}
+.container-paragraph{
+    @apply text-center text-xs;
+}
+}
