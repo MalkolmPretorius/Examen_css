@@ -41,7 +41,7 @@
     @apply flex flex-col justify-start mt-4 mx-4 h-3/5  border rounded-md  ;
 }
 .container-text{
-    @apply  my-auto     ;
+    @apply  my-auto   py-6  ;
 }
 .container-title{
     @apply font-medium text-center ;
